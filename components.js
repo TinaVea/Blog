@@ -8,6 +8,7 @@ function Project(props) {
     src: props.img
   })), React.createElement("figcaption", null, React.createElement("a", {
     href: props.url,
+    
     target: "_blank"
   }, props.caption)));
 }
