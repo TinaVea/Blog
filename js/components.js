@@ -19,15 +19,15 @@ function ProjectList() {
   }, React.createElement(Project, {
     img: "images/SnakeXNA_IMG.PNG",
     caption: "snake xna",
-    url: "https://github.com/occnah/SnakeXNA/tree/master/SnakeXNA"
+//    url: "https://github.com/occnah/SnakeXNA/tree/master/SnakeXNA"
   }), React.createElement(Project, {
     img: "images/ReactionTest_IMG.PNG",
     caption: "reaction test",
-    url: "./pages/reaction-test/reaction-test.html"
+//    url: "./pages/reaction-test/reaction-test.html"
   }), React.createElement(Project, {
     img: "images/CalcRN.png",
     caption: "calculator rn",
-    url: "https://github.com/occnah/CalculatorRN"
+//    url: "https://github.com/occnah/CalculatorRN"
   }));
 }
 
