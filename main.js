@@ -20,7 +20,7 @@ $(document).ready(function(){
 
     let characterIndex = 0;
 
-    let titleNames = ["o", "os", "oss", "ossi", "ossia", "ossian", "ossians", "ossians.", "ossians.s", "ossians.se", "ossians.s", "ossians.", "ossians", "ossian", "ossia", "ossi", "oss", "os"];
+    let titleNames = ["t", "ti", "tin", "tina", "tinav", "tinave", "tinavea", "tinavea.", "tinavea.c", "tinavea.co", "tinavea.com", "tinavea.co", "tinavea.c", "tinavea.", "tinavea", "tinave", "tinav", "tina", "tin", "ti", "t"];
 
     window.updateTitleName = function () {
         document.getElementsByTagName("title")[0].innerHTML = titleNames[characterIndex++ % titleNames.length];
